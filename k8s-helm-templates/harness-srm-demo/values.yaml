@@ -8,7 +8,7 @@ createNamespace: true
 namespace: <+infra.namespace>
 
 image:
-  full_image_name: <+artifact.image>
+  full_image_name: <+artifact.primary.image>
   pullPolicy: Always
 
 imagePullSecrets: []
